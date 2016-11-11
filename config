@@ -154,3 +154,15 @@ bindsym $mod+r mode "resize"
 bar {
         status_command /nix/store/8cn7l8451ynqm24sd6jpy7xvzx4sv24p-i3status-2.10/bin/i3status
 }
+
+##### ALEX
+
+new_window 1pixel
+
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec xbacklight -dec 1
+
+client.focused          #333000 #1e90ff #000000 #ADFF2F
+client.focused_inactive #333333 #5f676a #ffffff #484e50
+client.unfocused        #333333 #222222 #888888 #292d2e
+client.urgent           #2f343a #900000 #ffffff #900000é
